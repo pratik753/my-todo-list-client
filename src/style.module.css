@@ -1,0 +1,54 @@
+.pager {
+    /* background-color: antiquewhite; */
+    position: absolute;
+    top: 8rem;
+    right: 7%;
+    border-radius: 5px;
+    z-index: 9;
+    box-shadow: 0 0 10px #000;
+    padding: 2rem;
+    width: 25%;
+    /* background-color: rgb(228, 230, 231); */
+}
+
+.field {
+    margin: .5rem;
+}
+
+.conttodo {
+    display: flex;
+    width: 60%;
+}
+
+.card {
+    margin: 1rem;
+    box-shadow: 0 0 10px #000;
+}
+
+.card:hover {
+    background-color: rgb(230, 240, 247);
+}
+
+.imagee:hover {
+    height: 170px;
+}
+
+.red {
+    z-index: 999;
+    background-color: rgb(245, 188, 188);
+}
+
+.head {
+    border: 2px solid black;
+    margin-right: 15rem;
+    margin-left: 15rem;
+    margin-top: 1rem;
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 5rem;
+}
+
+.head h2 {
+    font-size: 30px;
+    font-weight: bolder;
+}
