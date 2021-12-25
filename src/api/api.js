@@ -1,5 +1,6 @@
 import axios from "axios";
-const url = "http://localhost:5000/todo";
+const url = "https://my-todo-list-todo.herokuapp.com/todo";
+// const url = "http://localhost:5000/todo";
 
 export const getTodo = () => axios.get(url);
 export const createTodo = (data) => axios.post(url, data);
